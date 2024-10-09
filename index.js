@@ -10,7 +10,8 @@ fs.writeFile("ConsoleHost_history.txt", "", (err) => {
   }
 });
 
-console.log("Powershell history cleared!\nPress any key to exit...");
+console.log("Powershell history cleared!");
+console.log("Press any key to exit...");
 process.stdin.setRawMode(true);
 process.stdin.resume();
 process.stdin.setEncoding("utf8");
